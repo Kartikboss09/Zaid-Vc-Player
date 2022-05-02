@@ -36,17 +36,19 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""A Telegram Music Bot Based PyroGram.
-
-💞 **Main Features**
-~ Support Audio + Video Stream
-~ YouTube/Local/Live/m3u8 stream support
-~ Voice Raid / Video Raid
-~ Spam, Bigspam, Raid and LoveRaid
-~ Audio And Video Download from YouTube
-
-Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
-""",
+        caption=f"""**═══════════════════
+★ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴋᴀʀᴛɪᴋ'ꜱ ᴍᴜꜱɪᴄ ʙᴏᴛ★
+✓ꜰᴀꜱᴛᴇꜱᴛ ᴍᴜꜱɪᴄ ʙᴏᴛ ᴡɪᴛʜ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴀᴜᴅɪᴏ💞
+┏━━━━━━━━━━━━━━━━━┓
+★ sᴜᴘᴘᴏʀᴛ ›› [ᴄʜᴀᴛ](t.me/ved_maitrich007)
+★ ᴄʜᴀɴɴᴇʟ ›› [ʟᴇɢᴇɴᴅ ꜰᴀɴᴄʟᴜʙ](t.me/legend_fanclub)
+★ ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ʀᴏʏᴀʟʙᴏʏ](t.me/royalboy_xd)
+★ ᴏᴡɴᴇʀ ›› [👨‍💻ʟᴇɢᴇɴᴅ👨‍💻](t.me/kartik_king01)
+┗━━━━━━━━━━━━━━━━━┛
+★ɪꜰ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ [👨‍💻ʟᴇɢᴇɴᴅ👨‍💻](t.me/kartik_king01)
+★
+═══════════════════**""",
+   
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -59,7 +61,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
                         "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅꜱ", url=f"https://t.me/SUPERIOR_BOTS/160"
                     ),
                     InlineKeyboardButton(
-                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/ITZ-ZAID/Zaid-Vc-Player"
+                        "ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url="https://github.com/Kartikboss09/Zaid-Vc-Player"
                     )
                 ],
                 [
@@ -79,7 +81,7 @@ Powered By [ᴢᴀɪᴅ ʙᴏᴛꜱ](t.me/superior_bots) ...
 @Client.on_message(commandpro(["/start", "/stats"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/dd9ca2b2122dd68ffab0e.png",
+        photo=f"https://te.legra.ph/file/b4140fe2fd6714f703e6e.jpg",
         caption=f"""Thanks For Adding Me To Ur Chat, For Any Query U Can Join Our Support Groups 🔥♥️""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -95,7 +97,7 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["repo", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/92688f2c44a35ba673c23.png",
+        photo=f"https://te.legra.ph/file/b4140fe2fd6714f703e6e.jpg",
         caption=f"""Here Is The Source Code Fork And Give Stars ✨""",
         reply_markup=InlineKeyboardMarkup(
             [
